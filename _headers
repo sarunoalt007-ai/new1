@@ -1,0 +1,15 @@
+/*
+  Cache-Control: public, max-age=3600
+  X-Content-Type-Options: nosniff
+
+/site.css
+/site.js
+/catalog.css
+/catalog.js
+  Cache-Control: public, max-age=604800
+
+/images/*
+  Cache-Control: public, max-age=604800, immutable
+
+/rates.json
+  Cache-Control: no-cache
